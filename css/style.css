@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap");
+
+/*font-family: 'Nanum Myeongjo', serif;*/
+
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
 
 /*font-family: 'Roboto Condensed', sans-serif;*/
@@ -27,7 +31,7 @@
   --bike-sky: #58a3b8;
 
   /**********   Fonts  *********/
-  --serif: "Baskervville", serif;
+  --serif: "Nanum Myeongjo", serif;
   --sans-serif: "Roboto Condensed", sans-serif;
 }
 
@@ -80,7 +84,7 @@ p {
 }
 
 .model {
-  font-size: 1.75rem;
+  font-size: 1.35rem;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   margin: 2rem 0;
@@ -240,7 +244,8 @@ article {
 .color-circle-2,
 .color-circle-3,
 .color-circle-4,
-.color-circle-5 {
+.color-circle-5,
+.color-circle-6 {
   width: 1rem;
   height: 1rem;
   min-width: 1rem;
@@ -248,7 +253,7 @@ article {
   display: inline-flex;
   margin-left: 0.5rem;
 }
-
+/* 
 .color-circle-1 {
   background-color: var(--bike-black);
 }
@@ -264,6 +269,27 @@ article {
 .color-circle-5 {
   background-color: var(--bike-green);
 }
+.color-circle-6 {
+  background-color: var(--bike-sky);
+} */
+
+.color-value {
+  justify-content: end;
+}
+
+.color ul {
+  list-style-type: none;
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+}
+.color li {
+  width: 1rem;
+  height: 1rem;
+  display: list-item;
+  margin-left: 1rem;
+}
+
 /***********    Tablet    ************************************/
 
 @media screen and (min-width: 768px) {
